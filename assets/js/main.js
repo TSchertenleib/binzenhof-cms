@@ -155,6 +155,7 @@ $('.button').click(function() {
             $('.unterliste2').css("display", "block");
             $('.unterliste2').animate({ opacity: 1 }, 1);
             $('.unterliste2').css("overflow", "hidden");
+            $('body').css("overflow", "hidden");
           }
 
         });
