@@ -3,7 +3,7 @@
 username: thomas
 email: thomas.schertenleib@gmail.com
 password: >
-  $2a$10$.iHI.WTkLucNCDB/liIazOiJsTzJxoUz9dfiJUyKpYNMCo6it8y8a
+  $2a$10$UoFij1Hp/G/..auIGypTaOmWK3vxS8JNZJEEk4qZjT/IBTrlpx0US
 language: de
 role: admin
 history:
