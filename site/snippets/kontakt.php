@@ -14,7 +14,7 @@
       </div>
 
 
-      <div class="slider">
+      <div class="contakt-container">
         <div class="grau-container-kontakt">
 
 

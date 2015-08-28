@@ -349,6 +349,12 @@ ul {
 	line-height: 1.6vw;	
 }
 
+.contakt-container {
+	padding: 0 10vw 0 10vw;
+	width: 100%;
+
+}
+
 /* Unser-Bauernhof Untermenu --------------------------------- */
 
 .unser-bauernhof-untermenu {
@@ -1824,6 +1830,11 @@ figure.effect-ming:hover img {
 		line-height: 7vw;	
 	}
 
+	.contakt-container {
+	padding: 0vw 0vw 0vw 0vw;
+	width: 100%;
+
+	}
 	/* Unser-Bauernhof Untermenu --------------------------------- */
 
 	.grid figure {
@@ -2571,6 +2582,11 @@ figure.effect-ming:hover img {
 		text-align: left;
 		font-size: 6vw;
 		line-height: 7vw;	
+	}
+	.contakt-container {
+	padding: 0vw 0vw 0vw 0vw;
+	width: 100%;
+
 	}
 
 	/* Unser-Bauernhof Untermenu --------------------------------- */
