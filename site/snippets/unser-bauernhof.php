@@ -34,7 +34,7 @@
         </figure>
       </div>
 
-
+      <div class="abstand-oben"></div>
       <div class="abstand-oben2"></div>
       <div class="zitat">
         <h1>„Das Bauern ist eine Berufung. Wenn man das nicht lieben würde, würde 
