@@ -12,7 +12,7 @@ var halbeBreite = $(window).width()/2;
 
 var breite = $(window).width();
 
-
+console.log(breite)
 
 // hide header functions
 $(window).scroll(function(event){
@@ -144,7 +144,7 @@ $('.button').click(function() {
                 
             },
             {   
-                duration: 1000,
+                duration: 500,
                 callback: function () {
                       $('.unterliste2').css("display", "none");
                 }

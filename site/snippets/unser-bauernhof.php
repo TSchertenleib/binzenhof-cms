@@ -41,7 +41,8 @@
           man es nicht tun.“</h1>
           <h6>Susanne Knörr</h6>
         </div>
-
+           <div class="abstand-oben"></div>
+           
           <div class="slider-beschreibung"><h1>Unser Binzenhof</h1></div>
           <div class="slider-container">  
             <div class="grau-container">
@@ -67,4 +68,4 @@
             <div class="abstand-oben"></div>
             <div class="abstand-oben"></div>
           </div>
-         
+           <div class="abstand-oben"></div>
