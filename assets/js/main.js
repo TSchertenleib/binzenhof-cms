@@ -137,8 +137,8 @@ $('.button').click(function() {
 
       if  (this.classList.contains("is-active") === true) {
         this.classList.remove("is-active");
-
-                $('body').removeClass('starr');  
+        
+                $('body').addClass('starr');  
 
                 $('.unterliste2').animate(
             {
