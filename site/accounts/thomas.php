@@ -7,10 +7,10 @@ password: >
 language: de
 role: admin
 history:
+  - ueber-uns/peter-knoerr
+  - ueber-uns/gretel-knoerr
+  - ueber-uns/susanne-knoerr
   - events/vom-grill
   - events/taufe
-  - events/hochzeiten
-  - events/geburtstage
-  - events/buure-brunch
 firstname:
 lastname:

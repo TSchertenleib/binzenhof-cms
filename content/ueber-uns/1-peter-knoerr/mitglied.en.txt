@@ -10,8 +10,8 @@ Beruf: Landwirt
 
 ----
 
-Aufgaben: Bauern
+Freihzeit: Wandern, lesen, reisen, Politik, schwimmen, lernen
 
 ----
 
-Freihzeit: Wandern, lesen
+Aufgaben: 

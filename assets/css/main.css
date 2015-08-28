@@ -2676,7 +2676,7 @@ figure.effect-ming:hover img {
 	color: #9E9E9E;
 	text-align: center;
 
-	top:5vw;
+	top:2vw;
 
 	position:relative; 
 	width: 100%;
@@ -2687,10 +2687,11 @@ figure.effect-ming:hover img {
 	-ms-transition: all 0.8s ease-in-out;
 
 	visibility: visible;
-	opacity: 0;
+	opacity: 1;
 }
 
 .angaben-container {
+
 	width: 50%;
 	display:block;
 }
@@ -2708,11 +2709,13 @@ figure.effect-ming:hover img {
 
 	top:0vw;
 
-	float: left;
+/*	float: left;*/
 	text-align: center;
 	font-size: 2.5vw;
 	
 	line-height: 0vw;
+
+	display: block;
 
 	position:relative; 
 
@@ -2724,7 +2727,7 @@ figure.effect-ming:hover img {
 	-o-transition: all 0.8s ease-in-out;
 	-ms-transition: all 0.8s ease-in-out;
 	visibility: visible;
-	opacity: 0;
+	opacity: 1;
 }
 
 
