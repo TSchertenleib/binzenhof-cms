@@ -137,7 +137,9 @@ $('.button').click(function() {
 
       if  (this.classList.contains("is-active") === true) {
         this.classList.remove("is-active");
-        
+
+                $('body').removeClass('starr');  
+
                 $('.unterliste2').animate(
             {
                 opacity: 0
@@ -154,7 +156,7 @@ $('.button').click(function() {
             this.classList.add("is-active");
             $('.unterliste2').css("display", "block");
             $('.unterliste2').animate({ opacity: 1 }, 1);
-            $('body').css("overflow", "hidden");
+            $('body').addClass('starr');
           }
 
         });
