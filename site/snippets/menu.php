@@ -1,10 +1,5 @@
 
 
-
-<button class="c-hamburger c-hamburger--htx">
-  <span>toggle menu</span>
-</button> -->
-
 <header>
       <div id="start-navibackground">
         <nav id="logo">
