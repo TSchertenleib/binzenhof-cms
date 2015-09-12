@@ -89,29 +89,31 @@ header {
 	letter-spacing: 1px;
 	font-weight: 600;
 	text-rendering: geometricPrecision; 
+	padding-top: 2px;
 }
 
 
 #start-navigation{
 	width: 42%;
-	float:left;
+	float:right;
 	display:block;
 }
 
 
 .unterliste2 {
-	float:left;
+	float:right;
+	padding-right: 2.5vw;
 	font-weight: 300;
 }
 
 .unterliste1 li{
 	float:right;
-	padding-right: 1vw;
+	padding-right: 1.5vw;
 }
 
 .unterliste2 li{
 	float:left;
-	padding-left: 1vw;
+	padding-left: 0.8vw;
 
 }
 
@@ -2521,6 +2523,237 @@ ul {
 @media only screen and (max-width: 667px)  {
 
 
+	/*navigation*/
+
+	nav a {
+		padding-left: 3.7vw;
+		margin-right: 0vw;
+		font-size: .9vw;
+	}
+
+
+/*	.unterliste2 {
+		margin-left: 5.5vw;
+	}*/
+
+
+	.button {
+		font-size: 1.7vw;
+		font-weight:200;
+		padding:1vw 2.5vw;
+}
+
+ 	/*main navigation*/
+
+	.navigation-title {
+		font-weight: 300;
+		font-size: 2.1vw;
+	}
+
+
+	/*unterseiten main*/
+
+/*	.text {
+		padding: 1.1vw 10vw 0vw;
+	}
+
+	.uebertext-titel h1 {
+		padding-bottom: .6vw;
+		width: 100%;
+		font-weight: 400;
+		font-size: 1.4vw;
+		line-height: 1.6vw;
+		color: #9E9E9E;
+	}
+
+	.uebertext p {
+		padding-bottom: 1vw;
+		font-size: .9vw;
+		line-height: 1.2vw;
+	}
+
+	.kontakt-text>p {
+		padding-bottom: 1vw;
+		font-size: .9vw;
+		line-height: 1.2vw;
+	}*/
+
+
+	/*untermenu unser bauernhof*/
+
+	.grid figure figcaption {
+
+		font-size: 1.3vw;
+		font-weight: 300;
+	}
+
+	.grid figure h2 {
+		padding-top: 5.3vw;
+		font-weight: 400;
+		font-size: 1.9vw;
+	}
+
+
+	/*zitat*/
+	.zitat h1 {
+		font-weight: 100;
+		font-size: 2.0vw;
+		line-height: 2.0vw;
+	}
+
+	.zitat h6 {
+		font-weight: 200;
+		font-size: 1.0vw;
+		line-height: 1.3vw;
+	}
+
+
+	/*slider*/
+	.slider-beschreibung h1 {
+		font-size: 2vw;
+		font-weight: 200;
+	}
+
+	.slider-titel {
+		top:45%;
+		font-size: 1.5vw;
+		font-weight: 100;
+	}
+
+	.slider-titel-events {
+		top:45%;
+		font-size: 1.5vw;
+		font-weight: 100;
+	}
+
+	.thumb-events h3 {
+		font-size: 1.3vw;
+	}
+
+	/*über uns*/
+	.angaben-container p {
+		font-size: 0.9vw;
+		top: 10.5vw; 
+
+	}
+
+	.angaben-container h2 {
+		font-weight: 400;
+		font-size: 1.6vw;
+		line-height: 2.8vw;
+		top: 11.5vw; 
+	}
+
+
+	/*anfrage -> kontakt laedeli*/
+	.anfragen a {
+		font-weight: 400;
+		font-size: 2.0vw;
+		line-height: 2.0vw;
+	}
+
+	.anfragen a:hover {
+		font-weight: 400;
+		font-size: 2.0vw;
+		line-height: 2.0vw;
+	}
+
+	/*laedeli*/
+	.oeffnungszeiten p {
+		font-size: 6vw;
+		line-height: 8vw;
+		margin-top: 0vw;
+		margin-bottom: 3vw;
+	}
+
+	/*kontakt*/
+	.form-style-6{
+		font-size: 1.0vw;
+		padding: 0;
+		margin: .2vw 2vw;
+	}
+
+/*	.form-style-6 .pure-button .pure-button-primaryn[type="submit"],*/
+	.form-style-6 input[type="text"],
+	.form-style-6 input[type="date"],
+	.form-style-6 input[type="datetime"],
+	.form-style-6 input[type="email"],
+	.form-style-6 input[type="number"],
+	.form-style-6 input[type="search"],
+	.form-style-6 input[type="time"],
+	.form-style-6 input[type="url"],
+	.form-style-6 textarea,
+	.form-style-6 select {
+		margin-bottom: .7vw;
+		padding: .7vw;
+	}
+
+	.pure-button-primary, 
+	.pure-button-selected, 
+	a.pure-button-primary, 
+	a.pure-button-selected {
+		width: 12vw !important; 
+	}
+
+/*	.form-style-6 .pure-button .pure-button-primaryn[type="submit"]:focus,*/
+	.form-style-6 input[type="text"]:focus,
+	.form-style-6 input[type="date"]:focus,
+	.form-style-6 input[type="datetime"]:focus,
+	.form-style-6 input[type="email"]:focus,
+	.form-style-6 input[type="number"]:focus,
+	.form-style-6 input[type="search"]:focus,
+	.form-style-6 input[type="time"]:focus,
+	.form-style-6 input[type="url"]:focus,
+	.form-style-6 textarea:focus,
+	.form-style-6 select:focus{
+		padding: .7vw;
+	}
+
+	.form-style-6 input[type="submit"],
+	.form-style-6 input[type="button"]{
+		padding: .7vw;
+	}
+
+	.grau-container-kontakt {
+		height: 25vw;
+	}
+
+	.adresse {
+		margin-top: 3vw;
+		width: 100%;
+		font-size: 1vw;
+		padding-right: 4vw;
+	}
+
+}
+
+/* Desktop 1900 ----------- */
+@media only screen and (max-width: 1311px)  {
+
+nav a {
+	text-decoration:none;
+	color: white;
+	padding-left: 1vw;
+	font-size: 18px;
+
+}
+
+nav a:hover {
+	opacity: 0.8;
+
+}
+
+ul {
+	list-style: none;
+	padding-left:0;
+	padding-top: 10px;
+	padding-right: 1.5vw;
+	position: static;	
+}
+}
+
+/* Desktop 913 ----------- */
+@media only screen and (max-width: 913px)  {
 
 	/* header menu --------------------------------- */
 
@@ -2532,14 +2765,14 @@ ul {
 	header {
 		z-index: 20000;
 		top:-10px;
-		height: 15vw !important;
+		height: 105px !important;
 
 		-webkit-transition: top 0.5s ease-in-out;
 		transition: top 0.5s ease-in-out;
 	}
 
 	.nav-up {
-		top: -15vw; 
+		top: -105px; 
 	}
 
 
@@ -2569,7 +2802,7 @@ ul {
 		font-weight: 600;
 		opacity: 0;
 		background: rgba(30,30,30,0.85);
-		padding-top:40%;
+		padding-top:25%;
 		width:100% !important;
 		height: 110% !important;
 		list-style: none;
@@ -2594,8 +2827,8 @@ ul {
 
 
 	.unterliste1	{
-		padding-top: 3vw;
-		margin-left: 6vw;
+		padding-top: 20px;
+		left: 35%;
 		z-index: 100;
 	}
 
@@ -2606,7 +2839,7 @@ ul {
 		width: 100%;
 		text-decoration:none;
 		color: white;
-		font-size: 6vw;
+		font-size: 24px;
 	}
 
 
@@ -2644,16 +2877,18 @@ ul {
 
 
 	.c-hamburger {
+		vertical-align: center;
+		top: 30px;
 		clear: both;
 		right: 4vw;
 		float: right;
 		display: block;
 		position: fixed;
 		overflow: hidden;
-		margin-top: 1.5vw;
+		margin-top: 0px;
 		padding: 0;
-		width: 8%;
-		height: 10%;
+		width: 5%;
+		height: 20%;
 		font-size: 0;
 		text-indent: -9999px;
 		appearance: none;
@@ -2675,10 +2910,10 @@ ul {
 	.c-hamburger span {
 		display: block;
 		position: absolute;
-		top: 6.5vw;
+		top: 20px;
 
 		width: 100%;
-		height: 0.4vw;
+		height: 2px;
 		background: white;
 		-moz-border-radius:5px; /* Firefox */
 		-webkit-border-radius:5px; /* Chrome, Safari */
@@ -2692,7 +2927,7 @@ ul {
 		display: block;
 		left: 0;
 		width: 100%;
-		height: 0.4vw;
+		height: 2px;
 		background-color: #fff;
 		content: "";
 		-moz-border-radius:5px; /* Firefox */
@@ -2764,6 +2999,7 @@ ul {
 		transition-delay: 0s, 0.3s;
 	}
 
+
 	/* start main --------------------------------- */
 
 	.inhalt {
@@ -2824,7 +3060,7 @@ ul {
 		padding-bottom: 1vw;
 
 		font-weight: 600;
-		font-size: 8vw;
+		font-size: 24px;
 		line-height: 2vw;
 		color: #9E9E9E;
 	}
@@ -2833,8 +3069,8 @@ ul {
 		width: 100%;
 		padding: 1vw 1vw;
 		text-align: left;
-		font-size: 6vw;
-		line-height: 7vw;
+		font-size: 18px;
+		line-height: 23px;
 		font-weight: 300;
 		column-count: 1;
 		column-rule: 0px choose #000000;
@@ -3065,7 +3301,7 @@ ul {
 	.adresse {
 		text-align: left;
 		width: 100%;
-		font-size: 6vw;
+		font-size: 18px;
 		padding: 0vw 4vw 4vw; /*wieso??*/
 		font-weight: 300;
 
@@ -3075,8 +3311,8 @@ ul {
 		width: 100%;
 		padding: 1vw 1vw;
 		text-align: left;
-		font-size: 6vw;
-		line-height: 7vw;
+		font-size: 18px;
+		line-height: 24px;
 		font-weight: 300;
 		list-style: none;
 		text-decoration:none;
@@ -3084,7 +3320,7 @@ ul {
 	}
 
 	.mail {
-		font-size: 12vw;
+		font-size: 30px;
 		font-weight: 300;
 	}
 	/* Form --------------------------------- */
