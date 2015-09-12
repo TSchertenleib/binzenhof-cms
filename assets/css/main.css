@@ -591,15 +591,16 @@ ul {
 	position: static;
 	padding: 2vw 0vw 3vw; /*wieso??*/
 	width:100%;
-	height: 100%;
+	height: 430px;
 	background: #EEEEEE;
 }
 
 
 .adresse {
 	width: 100%;
-	font-size: 1.3vw;
-	padding-right: 10vw;
+/*	font-size: 18px;*/
+	margin-top: 4.5vw;
+	padding-right: 18px;
 }
 
 
@@ -608,17 +609,15 @@ ul {
 /* Form --------------------------------- */
 
 .form-style-6{
-	font-size: 1.3vw;
+	height: 370px;
+	font-size: 16px;
 	width: 60%;
 	float: left;
 	border-radius: 3px;
 	padding: 0;
-	margin: .2vw 2vw;
+	margin: 0px 25px;
 }
 
-.form-style-6{
-	font-size: 1.0vw;
-}
 
 .form-style-6 input[type="text"],
 .form-style-6 input[type="date"],
@@ -642,7 +641,7 @@ ul {
 	background: #fff;
 	margin-bottom: 1vw;
 	border: 1px solid #ccc;
-	padding: 1vw;
+	padding: 20px;
 	color: #555;
 	border-radius: 3px;
 }
@@ -659,8 +658,7 @@ ul {
 .form-style-6 textarea:focus,
 .form-style-6 select:focus{
 	box-shadow: 0 0 0.1vw #4A89FF;
-	padding: 1vw;
-
+	padding: 20px;
 }
 
 
@@ -670,13 +668,14 @@ ul {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	width: 100%;
-	padding: 1vw;
+	padding: 20px;
 	border-top-style: none;
 	border-right-style: none;
 	border-left-style: none;    
 	color: #fff;
 
 	/* Rectangle 65: */
+
 	background: #4A89DC;
 	border: 1px solid rgba(121,125,128,0.30);
 	border-radius: 3px;
@@ -689,7 +688,7 @@ ul {
 }
 
 textarea {
-	height: 15vw;
+	height: 220px;
 }
 
 .antwort {
@@ -1754,6 +1753,10 @@ ul {
 		transition-delay: 0s, 0.3s;
 	}
 
+
+	.kontakt-text>p {
+		width:100%;
+	}
 
 }
 
