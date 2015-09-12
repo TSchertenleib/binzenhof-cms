@@ -34,7 +34,7 @@ header {
 	position:fixed;
 	width:100%;
 	z-index: 20000;
-	height: 7vw;
+	height: 105px;
 	top: 0;
 	transition: top 0.5s ease-in-out;
 }
@@ -54,16 +54,13 @@ header {
 
 /* Startseite Navigation --------------------------------- */
 
-header {
-
-}
 
 .c-hamburger {
 	display: none;
 }
 
 .nav-up {
-	top: -7vw; 
+	top: -105px; 
 }
 
 
@@ -313,8 +310,8 @@ ul {
 	padding-bottom: 1vw;
 	width: 100%;
 	font-weight: 400;
-	font-size: 2.6vw;
-	line-height: 2.8vw;
+	font-size: 36px;
+	line-height: 36px;
 	color: #9E9E9E;
 }
 
@@ -322,8 +319,8 @@ ul {
 	width: 100%;
 	padding-bottom: 1vw;
 	text-align: left;
-	font-size: 1.3vw;
-	line-height: 1.6vw;
+	font-size: 18px;
+	line-height: 23px;
 	column-count: 2;
 	column-gap: 8vw;
 	column-rule: 0px choose #000000;
@@ -345,8 +342,8 @@ ul {
 	width: 50%;
 	padding-bottom: 1vw;
 	text-align: left;
-	font-size: 1.3vw;
-	line-height: 1.6vw;	
+	font-size: 18px;
+	line-height: 23px;
 }
 
 .contakt-container {
