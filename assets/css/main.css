@@ -104,6 +104,7 @@ header {
 	float:right;
 	padding-right: 2.5vw;
 	font-weight: 300;
+	left: 0px;
 }
 
 .unterliste1 li{
@@ -3153,16 +3154,16 @@ ul {
 	.zitat h1 {
 		font-weight: 400;
 		font-style: italic;
-		font-size: 7vw;
-		line-height: 8vw;
+		font-size: 24px;
+		line-height: 36px;
 
 
 	}
 
 	.zitat h6 {
 		font-weight: 400;
-		font-size: 4vw;
-		line-height: 4vw;
+		font-size: 14px;
+		line-height: 34px;
 		margin-top: 0vw;
 		padding-top: 1vw;
 	}
@@ -3452,8 +3453,8 @@ ul {
 		position: absolute;
 		display: block;
 		color: white;
-		padding: 1vw;
-		padding-left: 1vw;
+		padding: 0vw;
+		padding-left: 0vw;
 		margin: 0vw;
 		font-weight: 200;
 		line-height: 3vw;
@@ -3485,7 +3486,7 @@ ul {
 	padding-bottom: 1vw;
 	width: 100%;
 	font-weight: 400;
-	font-size: 6vw;
+	font-size: 24px;
 	line-height: 2.8vw;
 	color: #9E9E9E;
 }
@@ -3554,18 +3555,19 @@ ul {
 
 @media only screen and (min-width: 850px)  {
 .slider {
-    padding: 0 0vw 0 10vw;
+/*    padding: 0 0vw 0 10vw;*/
     width: 90%;
     min-height: 44.00vw;
 }
 }
 
-@media only screen and (min-width: 750px)  {
+@media only screen and (max-width: 750px)  {
 .slider {
-    padding: 0 0vw 0 10vw;
-    width: 90%;
+    padding: 0 0vw 0 0vw;
+    width: 100%;
     min-height: 44.00vw;
 }
+
 }
 
 @media only screen and (min-width: 667px)  {
