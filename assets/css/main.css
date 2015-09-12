@@ -2204,15 +2204,8 @@ ul {
 		margin:1vw 0;	
 	}
 
-	.img-container img{
-		margin-top: 7.5vw;
 
-		flex-direction: row;		
-		-webkit-flex-direction: row;	
-		display: block;
 
-		width: 100%;
-	}
 
 	.angaben-container {
 		flex-direction: row;		
@@ -2242,6 +2235,7 @@ ul {
 		margin-top: 1vw;
 		opacity: 1;
 	}
+
 
 	/* Hoflädeli --------------------------------- */
 
@@ -2725,6 +2719,9 @@ ul {
 		font-size: 1vw;
 		padding-right: 4vw;
 	}
+
+
+
 
 }
 
@@ -3569,6 +3566,8 @@ ul {
 }
 
 }
+
+
 
 @media only screen and (min-width: 667px)  {
 .slider {
