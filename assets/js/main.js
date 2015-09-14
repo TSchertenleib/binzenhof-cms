@@ -138,7 +138,9 @@ $('.button').click(function() {
       if  (this.classList.contains("is-active") === true) {
         this.classList.remove("is-active");
         
-                $('body').addClass('starr');  
+            $('body').addClass('starr'); 
+
+
 
                 $('.unterliste2').animate(
             {
@@ -146,17 +148,43 @@ $('.button').click(function() {
                 
             },
             {   
-                duration: 500,
+                duration: 0,
                 callback: function () {
                       $('.unterliste2').css("display", "none");
+                }
+           });
+            
+            $('.unterliste1').animate(
+            {
+                opacity: 1
+                
+            },
+            {   
+                duration: 500,
+                callback: function () {
+                      $('.unterliste1').css("display", "block");
                 }
            });
 
           }else{
             this.classList.add("is-active");
+
+            $('.unterliste1').animate(
+            {
+                opacity: 0
+                
+            },
+            {   
+                duration: 500,
+                callback: function () {
+                      $('.unterliste1').css("display", "none");
+                }
+           });
+
             $('.unterliste2').css("display", "block");
             $('.unterliste2').animate({ opacity: 1 }, 1);
             $('body').addClass('starr');
+
           }
 
         });

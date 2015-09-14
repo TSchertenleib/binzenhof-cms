@@ -1566,7 +1566,7 @@ ul {
 		height: 110% !important;
 		list-style: none;
 		position: fixed;
-		text-align: center;	
+		text-align: left;	
 		-webkit-transition:all 0.8s ease-in-out;
 		transition:all 0.8s ease-in-out;
 	}
@@ -1587,7 +1587,7 @@ ul {
 
 	.unterliste1	{
 		padding-top: 20px;
-		left: 45%;
+		left: 25%;
 		z-index: 100;
 	}
 
@@ -2817,7 +2817,7 @@ ul {
 
 
 	.unterliste2 li {
-		text-align: center !important;
+		text-align: left !impo;
 		width: 100% !important;
 		margin: 5vw 0;
 
@@ -2832,9 +2832,10 @@ ul {
 
 	.unterliste1	{
 		padding-top: 20px;
-/*		left: 47%;*/
+		left: 47%;
 		z-index: 100;
-	}
+/*		display: none;
+*/	}
 
 
 
