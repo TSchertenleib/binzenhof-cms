@@ -54,28 +54,28 @@
             <div class="tiere-ueberflex">
               <div class="tiere-flex effect2">  
                 <div class="thumb" data-sliderId="kuehe">
-                  <img src="assets/media/tiere-slider/kuehe/kuehe.jpg"/>
+                  <img src="assets/media/tiere-slider/kuehe/kuehe-small.jpg"/>
 
                   <div class="mask2"></div><h3 class="slider-titel">Kühe</h3>
                 </div>  
               </div>        
               <div class="tiere-flex effect2">  
                 <div class="thumb" data-sliderId="pferde" data-content="Pferde">
-                  <img src="assets/media/tiere-slider/pferde/pferde.jpg"/>
+                  <img src="assets/media/tiere-slider/pferde/pferde-small.jpg"/>
 
                   <div class="mask2"></div><h3 class="slider-titel">Pferde</h3>
                 </div>
               </div>  
               <div class="tiere-flex effect2">  
                 <div class="thumb" data-sliderId="ziege">
-                  <img src="assets/media/tiere-slider/ziege/ziege.jpg"/>
+                  <img src="assets/media/tiere-slider/ziege/ziege-small.jpg"/>
 
                   <div class="mask2"></div><h3 class="slider-titel">Ziegen</h3>
                 </div>
               </div>
               <div class="tiere-flex effect2">          
-                <div class="thumb" data-sliderId="huehner">
-                  <img src="assets/media/tiere-slider/huehner/huehner.jpg"/> 
+                <div class="thumb" data-sliderId="huehner-small">
+                  <img src="assets/media/tiere-slider/huehner/huehner-small.jpg"/> 
 
 
                   <div class="mask2"></div><h3 class="slider-titel">Hühner</h3>
@@ -83,8 +83,8 @@
               </div>  
 
               <div class="tiere-flex effect2">  
-                <div class="thumb" data-sliderId="haustiere">
-                  <img src="assets/media/tiere-slider/haustiere/hund.jpg"/>
+                <div class="thumb" data-sliderId="haustiere-small">
+                  <img src="assets/media/tiere-slider/haustiere/haustiere-small.jpg"/>
 
                   <div class="mask2"></div><h3 class="slider-titel">Haustiere</h3>
                 </div>

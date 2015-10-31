@@ -42,27 +42,23 @@
           <h6>Susanne Knörr</h6>
         </div>
            <div class="abstand-oben"></div>
-           
-          <div class="slider-beschreibung"><h1>Unser Binzenhof</h1></div>
+          <div class="grau-container">
+
+        <div class="text">
+          <h3>UNSER BINZENHOF</h3>
+          <div class="uebertext">
+            <p><?php echo $page->unser_angebot_text()->kirbytext() ?></p>
+          </div>
+
           <div class="slider-container">  
-            <div class="grau-container">
-              <div class="slider">
-                <div class="site-slider-bauernhof is-active">
-                  <div><img src="assets/media/unser-hof/1.jpg"/>
-                  </div>
-                  <div><img src="assets/media/unser-hof/2.jpg"/></div>
-                  <div><img src="assets/media/unser-hof/3.jpg"/></div>
-                  <div><img src="assets/media/unser-hof/4.jpg"/></div>
-                  <div><img src="assets/media/unser-hof/5.jpg"/>
-                  </div>
-                  <div><img src="assets/media/unser-hof/6.jpg"/></div>
-                  <div><img src="assets/media/unser-hof/7.jpg"/></div>
-                  <div><img src="assets/media/unser-hof/8.jpg"/></div>
-                  <div><img src="assets/media/unser-hof/9.jpg"/></div>
-                </div>
+              <div class="site-slider-laedeli is-active">
+              <?php foreach($page->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?>
               </div>
-            </div>
-          </div>  
+          </div>    
+
+        </div>
 
           <div class="strange">
             <div class="abstand-oben"></div>
