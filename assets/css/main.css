@@ -111,7 +111,7 @@ header {
 
 .unterliste1 li{
 	float:right;
-	padding-right: 1.5vw;
+/*	padding-right: 1.5vw;*/
 }
 
 .unterliste2 li{
@@ -1587,7 +1587,7 @@ ul {
 
 	.unterliste1	{
 		padding-top: 20px;
-		left: 25%;
+/*		left: 25%;*/
 		z-index: 100;
 	}
 
@@ -1817,17 +1817,14 @@ ul {
 		font-weight: 600;
 
 		opacity: 0;
-		
+	
 		background: rgba(30,30,30,0.85);
-		
+	
 		padding-top:40%;
-
 		width:100% !important;
 		height: 100% !important;
-
 		list-style: none;
 		position: fixed;
-
 		text-align: center;	
 
 		-webkit-transition:all 0.8s ease-in-out;
@@ -1846,13 +1843,24 @@ ul {
 		text-align: center;
 		padding-top: 3vw;
 		z-index: 100;
-
+		left: 0;
 	}
+
+
+	.unterliste1	{
+		padding-top: 20px;
+/*		padding-right: 10vw;*/
+	/*	left: 55%;*/
+		z-index: 100;
+		margin-right:0;
+/*		display: none;
+*/	}
 
 	.unterliste2 {
 		display: none;
 		text-align: center;
 	}
+
 
 
 	nav a {
@@ -2516,8 +2524,39 @@ ul {
 }
 
 
+@media only screen and (max-width: 667px)  {
+	.unterliste1	{
+		padding-top: 20px;
+/*		padding-right: 10vw;*/
+		left: 35%;
+		z-index: 100;
+		margin-right:0;
+/*		display: none;
+*/	}
 
+}
 
+@media only screen and (min-width: 667px)  {
+	.unterliste1	{
+/*		padding-right: 10vw;*/
+		left: 35%;
+		z-index: 100;
+		margin-right:0;
+/*		display: none;
+*/	}
+
+}
+
+@media only screen and (max-width: 600px)  {
+	.unterliste1	{
+/*		padding-right: 10vw;*/
+		left: 40%;
+		z-index: 100;
+		margin-right:0;
+/*		display: none;
+*/	}
+
+}
 
 /* Desktop ----------- */
 @media only screen and (max-width: 667px)  {
@@ -2531,6 +2570,16 @@ ul {
 		font-size: .9vw;
 	}
 
+
+
+	.unterliste1	{
+		padding-top: 20px;
+/*		padding-right: 10vw;*/
+		left: 47%;
+		z-index: 100;
+		margin-right:0;
+/*		display: none;
+*/	}
 
 /*	.unterliste2 {
 		margin-left: 5.5vw;
@@ -2731,7 +2780,7 @@ ul {
 }
 
 /* Desktop 1900 ----------- */
-@media only screen and (max-width: 1311px)  {
+/*@media only screen and (min-width: 1311px)  {
 
 nav a {
 	text-decoration:none;
@@ -2753,7 +2802,7 @@ ul {
 	padding-right: 1.5vw;
 	position: static;	
 }
-}
+}*/
 
 /* Desktop 913 ----------- */
 @media only screen and (max-width: 913px)  {
@@ -2782,7 +2831,7 @@ ul {
 	#logo{
 		font-family: 'source serif pro';
 
-		margin-left: 40%;
+/*		margin-left: 40%;*/
 
 		display:block;
 		letter-spacing: 2px;
@@ -2817,9 +2866,10 @@ ul {
 
 
 	.unterliste2 li {
-		text-align: left !impo;
+		text-align: center !important;
 		width: 100% !important;
 		margin: 5vw 0;
+
 
 	}
 
@@ -2832,8 +2882,10 @@ ul {
 
 	.unterliste1	{
 		padding-top: 20px;
-		left: 47%;
-		z-index: 100;
+/*		padding-right: 10vw;*/
+/*		left: 40%;
+*/		z-index: 100;
+		margin-right:0;
 /*		display: none;
 */	}
 
