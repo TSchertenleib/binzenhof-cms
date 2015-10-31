@@ -5,7 +5,7 @@
       </div>
 
       <div class="bgimage">
-        <img src="assets/media/images/start.png" alt="Start">
+        <img src="assets/media/images/start.jpg" alt="Start">
       </div>
       <div class="button-wrapper">
         <div class="button">RUNDGANG</div>

@@ -3,7 +3,7 @@
      		<div class="flex-container1">
 
      			<div class="view effect">
-     				<a href="unser-bauernhof"><img src="assets/media/images/unser_bauernhof_nav.png" alt="Unser Bauernhof">
+     				<a href="unser-bauernhof"><img src="assets/media/images/unser_bauernhof_nav.jpg" alt="Unser Bauernhof">
      					<h1 class="navigation-title">Unser Bauernhof</h1>
      					<div class="mask">
      					</div>
@@ -11,7 +11,7 @@
      			</div>
 
      			<div class="view effect">
-     				<a href="events"><img src="assets/media/images/events_nav.png" alt="Events">
+     				<a href="events"><img src="assets/media/images/events_nav.jpg" alt="Events">
      					<h1 class="navigation-title">Events</h1>
      					<div class="mask">
      					</div>
@@ -21,7 +21,7 @@
 
      		<div class="flex-container2">
      			<div class="view effect">
-     				<a href="hoflaedeli"><img src="assets/media/images/laedeli_nav.png" alt="Hoflädeli">
+     				<a href="hoflaedeli"><img src="assets/media/images/laedeli_nav.jpg" alt="Hoflädeli">
      					<h1 class="navigation-title">Hoflädeli</h1>
      					<div class="mask">
      					</div>
@@ -29,7 +29,7 @@
      			</div>
 
      			<div class="view effect">
-     				<a href="kontakt"><img src="assets/media/images/kontakt_nav.png" alt="Kontakt">
+     				<a href="kontakt"><img src="assets/media/images/kontakt_nav.jpg" alt="Kontakt">
      					<h1 class="navigation-title">Kontakt</h1>
      					<div class="mask">
      					</div>

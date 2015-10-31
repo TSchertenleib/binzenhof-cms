@@ -1,5 +1,5 @@
     <section class="inhalt-unterseiten">
-      <img class="ueberbild" src="assets/media/images/ueberbild_events.png" alt="Events">
+      <img class="ueberbild" src="assets/media/images/ueberbild_events.jpg" alt="Events">
       <div class="text">
         <div class="uebertext-titel">
           <h1><?php echo $page->title()->html() ?></h1>

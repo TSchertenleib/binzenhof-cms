@@ -1,5 +1,5 @@
   <section class="inhalt-unterseiten">
-      <img class="ueberbild" src="assets/media/images/ueberbild_laedeli.png" alt="Lädeli">
+      <img class="ueberbild" src="assets/media/images/ueberbild_laedeli.jpg" alt="Lädeli">
       <div class="text">
         <div class="uebertext-titel">
           <h1><?php echo $page->title()->html() ?></h1>

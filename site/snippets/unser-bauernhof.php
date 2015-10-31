@@ -1,6 +1,6 @@
   <section class="inhalt-unterseiten">
       <div>
-        <img class="ueberbild" src="assets/media/images/ueberbild_unser_bauernhof.png" alt="Start">
+        <img class="ueberbild" src="assets/media/images/ueberbild_unser_bauernhof.jpg" alt="Start">
       </div>
       <div class="text">
         <div class="uebertext-titel">
@@ -14,7 +14,7 @@
 
       <div class="grid">
         <figure class="effect-ming">
-          <img src="assets/media/images/ueber_uns.png" alt="Über uns"/>
+          <img src="assets/media/images/ueber_uns.jpg" alt="Über uns"/>
           <figcaption>
             <h2>Über Uns</h2>
             <p class="beschriftung">Auf dem Binzenhof leben und arbeiten </br> wir im Einklang mit der Natur.</p>
@@ -23,7 +23,7 @@
           </figcaption>     
         </figure>
         <figure class="effect-ming">
-          <img src="assets/media/images/unsere_tiere.png" alt="Unsere Tiere"/>
+          <img src="assets/media/images/unsere_tiere.jpg" alt="Unsere Tiere"/>
           <figcaption>
             <h2>Unsere Tiere</h2>
             <p class="beschriftung">Jedes unserer Tiere soll ein glückliches</br> und schönes Leben haben.</p>
