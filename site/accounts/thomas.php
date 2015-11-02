@@ -7,10 +7,10 @@ password: >
 language: de
 role: admin
 history:
+  - hoflaedeli
+  - unsere-tiere
+  - unser-bauernhof
   - ueber-uns/peter-knoerr
   - ueber-uns/gretel-knoerr
-  - ueber-uns/susanne-knoerr
-  - events/vom-grill
-  - events/taufe
 firstname:
 lastname:
