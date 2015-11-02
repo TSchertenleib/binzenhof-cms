@@ -77,7 +77,27 @@ $('.site-slider-bauernhof').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   adaptiveHeight: true,
-  arrows: true        
+  arrows: true,
+  responsive: [
+  {
+    breakpoint: 1400,
+    settings: {
+      dots: true
+    }
+  },
+  {
+    breakpoint: 1000,
+    settings: {
+      dots: true
+    }
+  },
+  {
+    breakpoint: 667,
+    settings: {
+      dots: true
+    }
+  }
+  ]               
 });
 
 
@@ -87,26 +107,27 @@ $('.site-slider-laedeli').slick({
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
+  adaptiveHeight: true,
   arrows: true,
-      responsive: [
-   {
-      breakpoint: 1400,
-      settings: {
-        dots: true
-      }
-    },
-    {
-      breakpoint: 1000,
-      settings: {
-        dots: true
-      }
-    },
-    {
-      breakpoint: 667,
-      settings: {
-        dots: true
-      }
+  responsive: [
+  {
+    breakpoint: 1400,
+    settings: {
+      dots: true
     }
+  },
+  {
+    breakpoint: 1000,
+    settings: {
+      dots: true
+    }
+  },
+  {
+    breakpoint: 667,
+    settings: {
+      dots: true
+    }
+  }
   ]        
 });
 
@@ -127,31 +148,31 @@ $('.tiere-ueberflex').slick({
   focusOnSelect: true,
   arrows: false,
   asNavFor: '.site-slider',
-    responsive: [
-   {
-      breakpoint: 1400,
-      settings: {
-        centerMode: true,
-        slidesToShow: 4,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 1000,
-      settings: {
-        centerMode: true,
-        slidesToShow: 3,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 667,
-      settings: {
-        centerMode: true,
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
+  responsive: [
+  {
+    breakpoint: 1400,
+    settings: {
+      centerMode: true,
+      slidesToShow: 4,
+      slidesToScroll: 1
     }
+  },
+  {
+    breakpoint: 1000,
+    settings: {
+      centerMode: true,
+      slidesToShow: 3,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 667,
+    settings: {
+      centerMode: true,
+      slidesToShow: 2,
+      slidesToScroll: 1
+    }
+  }
   ]
 
 });
@@ -165,31 +186,31 @@ $('.events-ueberflex').slick({
   focusOnSelect: true,
   arrows: false,
   asNavFor: '.site-slider',
-    responsive: [
-    {
-      breakpoint: 1400,
-      settings: {
-        centerMode: true,
-        slidesToShow: 4,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 1000,
-      settings: {
-        centerMode: true,
-        slidesToShow: 3,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 667,
-      settings: {
-        centerMode: true,
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
+  responsive: [
+  {
+    breakpoint: 1400,
+    settings: {
+      centerMode: true,
+      slidesToShow: 4,
+      slidesToScroll: 1
     }
+  },
+  {
+    breakpoint: 1000,
+    settings: {
+      centerMode: true,
+      slidesToShow: 3,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 667,
+    settings: {
+      centerMode: true,
+      slidesToShow: 2,
+      slidesToScroll: 1
+    }
+  }
   ]
 });
 
