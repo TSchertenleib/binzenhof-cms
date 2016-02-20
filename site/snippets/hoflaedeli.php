@@ -36,7 +36,7 @@
     </section>
 
     <div class="anfragen">
-      <h3>FÜR INFOS ODER BESTELLUNGEN
+      <h3>FÜR INFOS UND WEITERE FRAGEN
       </h3>
-      <a href="mailto:thomas.schertenleib@gmail.com?Subject=Neue Anfrage von Binzenhof.ch" target="_top">info@binzenhof.ch</a>
+      <a href="mailto:peter.knoerr@bluewin.ch?Subject=Neue Anfrage von Binzenhof.ch" target="_top">info@binzenhof.ch</a>
     </div>

@@ -3,14 +3,14 @@
 username: thomas
 email: thomas.schertenleib@gmail.com
 password: >
-  $2a$10$UoFij1Hp/G/..auIGypTaOmWK3vxS8JNZJEEk4qZjT/IBTrlpx0US
+  $2a$10$JLXqDRxl00awhnDP2.sU0eb4oao8mbDFpFTa1LKtKFFVb23KEb7vK
 language: de
 role: admin
 history:
-  - events
-  - hoflaedeli
-  - unsere-tiere
-  - unser-bauernhof
+  - kontakt
   - ueber-uns/peter-knoerr
-firstname:
-lastname:
+  - ueber-uns/stephanie
+  - ueber-uns/robin
+  - ueber-uns/hans
+firstname: Thomas
+lastname: Schertenleib

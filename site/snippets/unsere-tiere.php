@@ -74,7 +74,7 @@
                 </div>
               </div>
               <div class="tiere-flex effect2">          
-                <div class="thumb" data-sliderId="huehner-small">
+                <div class="thumb" data-sliderId="huehner">
                   <img src="assets/media/tiere-slider/huehner/huehner-small.jpg"/> 
 
 
@@ -83,7 +83,7 @@
               </div>  
 
               <div class="tiere-flex effect2">  
-                <div class="thumb" data-sliderId="haustiere-small">
+                <div class="thumb" data-sliderId="haustiere">
                   <img src="assets/media/tiere-slider/haustiere/haustiere-small.jpg"/>
 
                   <div class="mask2"></div><h3 class="slider-titel">Haustiere</h3>
@@ -102,6 +102,6 @@
     </section>
 
           <div class="zitat">
-        <h1>„Wir haben ein sehr inniges Verhältnis zu unseren Tieren, jedes hat seinen eigenen  Charakter und ist ein Teil unserer Familie.“</h1>
+        <h1>„Wir haben eine richtige Beziehung zu unseren Tieren. Sie sind keine Nummern, sondern haben alle einen Namen.“</h1>
         <h6>Peter Knörr</h6>
       </div>

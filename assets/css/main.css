@@ -22,7 +22,7 @@
 
 
 body	{
-	
+
 	background: white;
 	font-family: 'source sans pro', 'Helvetica', sans-serif;
 
@@ -62,7 +62,7 @@ header {
 }
 
 .nav-up {
-	top: -105px; 
+	top: -105px;
 }
 
 
@@ -90,7 +90,7 @@ header {
 	display:block;
 	letter-spacing: 1px;
 	font-weight: 600;
-	text-rendering: geometricPrecision; 
+	text-rendering: geometricPrecision;
 	padding-top: 2px;
 }
 
@@ -111,7 +111,6 @@ header {
 
 .unterliste1 li{
 	float:right;
-/*	padding-right: 1.5vw;*/
 }
 
 .unterliste2 li{
@@ -146,7 +145,7 @@ ul {
 	padding-left:0;
 	padding-top: 10px;
 	padding-right: 3.5vw;
-	position: static;	
+	position: static;
 }
 
 
@@ -251,7 +250,7 @@ ul {
 }
 
 .mask {
-	position:absolute; 
+	position:absolute;
 	top:0;
 	left:0;
 	width:100%;
@@ -270,12 +269,11 @@ ul {
 }
 
 .start-effect{
-	/*background-color: rgba(0, 0, 0, 0.75);*/
 	opacity: 1;
 	-moz-transition:all 0.8s ease-in-out;
 	-webkit-transition:all 0.8s ease-in-out;
 	-o-transition:all 0.8s ease-in-out;
-	-ms-transition:all 0.8s ease-in-out; 
+	-ms-transition:all 0.8s ease-in-out;
 	transition:all 0.8s ease-in-out;
 
 }
@@ -445,9 +443,9 @@ ul {
 	color: #9E9E9E;
 	text-align: center;
 
-	top:11vw;
+	top:7vw;
 
-	position:relative; 
+	position:relative;
 	width: 100%;
 	transition: all 0.8s ease-in-out;
 	-moz-transition: all 0.8s ease-in-out;
@@ -464,10 +462,7 @@ ul {
 	display:block;
 }
 
-.angaben-container:nth-child(1) {
-/*	padding-top: 9vw;
-	display:block;*/
-}
+
 
 .angaben-container p {
 	transform: translate3d(0,0,0);
@@ -476,16 +471,17 @@ ul {
 	-o-transform: translate3d(0,0,0);
 	-ms-transform: translate3d(0,0,0);
 
-	top:9vw;
+	top:7vw;
 
 	word-wrap: break-word;
 	float: left;
 	text-align: center;
-	font-size: 1.1vw;
-	
+	font-size: 1.4vw;
+	font-weight: 300;
+
 	line-height: 0vw;
 
-	position:relative; 
+	position:relative;
 
 	width: 100%;
 
@@ -500,7 +496,7 @@ ul {
 
 
 
-/* Unsere Tiere Slider Sektion -> grau improvisiert --------------------------------- */
+/* Unsere Tiere Slider Sektion --------------------------------- */
 
 
 
@@ -538,7 +534,7 @@ ul {
 .anfragen a {
 	color: #9E9E9E;
 	font-weight: 600;
-	font-size: 2.8vw;
+	font-size: 35px;
 	line-height: 2.8vw;
 	text-decoration: none;
 }
@@ -546,7 +542,7 @@ ul {
 .anfragen a:hover {
 	color: #000000;
 	font-weight: 600;
-	font-size: 2.8vw;
+	font-size: 35px;
 	line-height: 2.8vw;
 	text-decoration: none;
 }
@@ -556,7 +552,7 @@ ul {
 
 .text h3 {
 	font-size: 2vw;
-	font-weight: 300;	
+	font-weight: 300;
 }
 
 .grau-container {
@@ -566,14 +562,14 @@ ul {
 }
 
 .oeffnungszeiten {
-	padding: 5vw 31vw 3vw;
+	padding: 5vw 21vw 3vw;
 }
 
 .oeffnungszeiten p {
 	text-align: center;
 	width: 100%;
-	font-size: 1.3vw;
-	line-height: 2vw;
+	font-size: 20px;
+	line-height: 30px;
 
 }
 
@@ -592,19 +588,18 @@ ul {
 }
 
 
-.grau-container-kontakt {  
+.grau-container-kontakt {
 	position: static;
-	padding: 2vw 0vw 3vw; /*wieso??*/
+	padding: 2vw 0vw 3vw; 
 	width:100%;
-	height: 430px;
+	height: 370px;
 	background: #EEEEEE;
 }
 
 
 .adresse {
 	width: 100%;
-/*	font-size: 18px;*/
-	margin-top: 4.5vw;
+	margin-top: 2vw;
 	padding-right: 18px;
 }
 
@@ -676,7 +671,7 @@ ul {
 	padding: 20px;
 	border-top-style: none;
 	border-right-style: none;
-	border-left-style: none;    
+	border-left-style: none;
 	color: #fff;
 
 	/* Rectangle 65: */
@@ -684,7 +679,7 @@ ul {
 	background: #4A89DC;
 	border: 1px solid rgba(121,125,128,0.30);
 	border-radius: 3px;
-	box-shadow: 0px 1px 5px 0px rgba(171,175,179,0.60), 
+	box-shadow: 0px 1px 5px 0px rgba(171,175,179,0.60),
 	inset 0px -2px 2px 0px rgba(121,125,128,0.20);
 }
 .form-style-6 input[type="submit"]:hover,
@@ -746,7 +741,7 @@ textarea {
 /* Main Navigation --------------------------------- */
 
 .main-navigation {
-	margin-top: -5px; /* vorübergehend */
+	margin-top: -5px; 
 	display:-ms-flex;
 	display:-o-flex;
 	display:-moz-flex;
@@ -756,8 +751,8 @@ textarea {
 	display:flex;
 
 	width: 100%;
-	height: 100%;
-
+/*	height: 100%;
+*/
 }
 
 .nav-container {
@@ -876,7 +871,7 @@ textarea {
 .navigation-title {
 	z-index: 1000;
 	color: white;
-	position:absolute; 
+	position:absolute;
 	width: 100%;
 	margin-top: 33%;
 	font-weight: 400;
@@ -1009,7 +1004,7 @@ figure.effect-ming figcaption::before {
 	right: 30px;
 	bottom: 30px;
 	left: 30px;
-	content: '';	
+	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
 	transition: opacity 0.8s, transform 0.8s;
@@ -1088,21 +1083,18 @@ figure.effect-ming:hover img {
 .site-slider {
 	display: none;
 
-/*	visibility: hidden;*/
 }
 
 
 .is-active {
 	display: block;
 
-/*	visibility: visible;*/
 }
 
 
 .slider {
     padding: 0 0vw 0 10vw;
     width: 90%;
-/*    min-height: 44.0vw;*/
 }
 
 .active {
@@ -1391,8 +1383,7 @@ figure.effect-ming:hover img {
 
 	/*über uns*/
 	.angaben-container p {
-		font-size: 0.9vw;
-		top: 10.5vw; 
+		top: 10.5vw;
 
 	}
 
@@ -1400,27 +1391,15 @@ figure.effect-ming:hover img {
 		font-weight: 400;
 		font-size: 1.6vw;
 		line-height: 2.8vw;
-		top: 11.5vw; 
+		top: 11.5vw;
 	}
 
 
-	/*anfrage -> kontakt laedeli*/
-	.anfragen a {
-		font-weight: 400;
-		font-size: 2.0vw;
-		line-height: 2.0vw;
-	}
-
-	.anfragen a:hover {
-		font-weight: 400;
-		font-size: 2.0vw;
-		line-height: 2.0vw;
-	}
 
 	/*laedeli*/
 	.oeffnungszeiten p {
-		font-size: 6vw;
-		line-height: 8vw;
+		font-size: 20px;
+		line-height: 40px;
 		margin-top: 0vw;
 		margin-bottom: 3vw;
 	}
@@ -1432,7 +1411,6 @@ figure.effect-ming:hover img {
 		margin: .2vw 2vw;
 	}
 
-/*	.form-style-6 .pure-button .pure-button-primaryn[type="submit"],*/
 	.form-style-6 input[type="text"],
 	.form-style-6 input[type="date"],
 	.form-style-6 input[type="datetime"],
@@ -1447,14 +1425,13 @@ figure.effect-ming:hover img {
 		padding: .7vw;
 	}
 
-	.pure-button-primary, 
-	.pure-button-selected, 
-	a.pure-button-primary, 
+	.pure-button-primary,
+	.pure-button-selected,
+	a.pure-button-primary,
 	a.pure-button-selected {
-		width: 12vw !important; 
+		width: 12vw !important;
 	}
 
-/*	.form-style-6 .pure-button .pure-button-primaryn[type="submit"]:focus,*/
 	.form-style-6 input[type="text"]:focus,
 	.form-style-6 input[type="date"]:focus,
 	.form-style-6 input[type="datetime"]:focus,
@@ -1473,14 +1450,13 @@ figure.effect-ming:hover img {
 		padding: .7vw;
 	}
 
-	.grau-container-kontakt {
-		height: 25vw;
-	}
+
 
 	.adresse {
-		margin-top: 3vw;
+		margin-top: -1.5vw;
 		width: 100%;
-		font-size: 1vw;
+		font-size: 20px;
+		font-weight: 300;
 		padding-right: 4vw;
 	}
 
@@ -1507,7 +1483,7 @@ ul {
 	padding-left:0;
 	padding-top: 10px;
 	padding-right: 1.5vw;
-	position: static;	
+	position: static;
 }
 }
 
@@ -1531,7 +1507,7 @@ ul {
 	}
 
 	.nav-up {
-		top: -105px; 
+		top: -105px;
 	}
 
 
@@ -1561,12 +1537,11 @@ ul {
 		font-weight: 600;
 		opacity: 0;
 		background: rgba(30,30,30,0.85);
-/*		padding-top:40%;
-*/		width:100% !important;
+		width:100% !important;
 		height: 110% !important;
 		list-style: none;
 		position: fixed;
-		text-align: left;	
+		text-align: left;
 		-webkit-transition:all 0.8s ease-in-out;
 		transition:all 0.8s ease-in-out;
 	}
@@ -1587,7 +1562,6 @@ ul {
 
 	.unterliste1	{
 		padding-top: 20px;
-/*		left: 25%;*/
 		z-index: 100;
 	}
 
@@ -1676,7 +1650,7 @@ ul {
 		background: white;
 		-moz-border-radius:5px; /* Firefox */
 		-webkit-border-radius:5px; /* Chrome, Safari */
-		-khtml-border-radius:5px; /* Konqueror */
+		-khtml-border-radius:5px; 
 		border-radius:5px; /
 	}
 
@@ -1786,7 +1760,7 @@ ul {
 	}
 
 	.nav-up {
-		top: -19vw; 
+		top: -19vw;
 	}
 
 
@@ -1817,15 +1791,15 @@ ul {
 		font-weight: 600;
 
 		opacity: 0;
-	
+
 		background: rgba(30,30,30,0.85);
-	
+
 		padding-top:40%;
 		width:100% !important;
 		height: 100% !important;
 		list-style: none;
 		position: fixed;
-		text-align: center;	
+		text-align: center;
 
 		-webkit-transition:all 0.8s ease-in-out;
 		transition:all 0.8s ease-in-out;
@@ -1849,12 +1823,9 @@ ul {
 
 	.unterliste1	{
 		padding-top: 20px;
-/*		padding-right: 10vw;*/
-	/*	left: 55%;*/
 		z-index: 100;
 		margin-right:0;
-/*		display: none;
-*/	}
+	}
 
 	.unterliste2 {
 		display: none;
@@ -2045,7 +2016,7 @@ ul {
 	}
 
 	.main-navigation{
-		display: none; 	
+		display: none;
 	}
 
 
@@ -2079,7 +2050,7 @@ ul {
 	}
 
 	.uebertext-titel h1 {
-		padding: 3vw 1vw;	
+		padding: 3vw 1vw;
 		padding-bottom: 1vw;
 
 		font-weight: 600;
@@ -2112,7 +2083,7 @@ ul {
 		padding-bottom: 1vw;
 		text-align: left;
 		font-size: 6vw;
-		line-height: 7vw;	
+		line-height: 7vw;
 	}
 
 	.contakt-container {
@@ -2209,23 +2180,24 @@ ul {
 
 	.portraits-container {
 	background: #EEEEEE;
-		flex-direction: row;		
-		-webkit-flex-direction: row;
-		margin:1vw 0;	
+		flex-direction: row;
+		-webkit-flex-direction: column;
+		margin:1vw 0;
 	}
 
-	.img-container img {
-/*		display: none;*/
-		padding-top: 7vw;
-	}
 
+
+	.img-container {
+		width: 100%;
+		display: none;
+	}
 
 	.angaben-container {
-		flex-direction: row;		
-		-webkit-flex-direction: row;	
+		flex-direction: column;
+		-webkit-flex-direction: column;
 		display: block;
 		margin-top: 4px;
-		width: 50%;
+		width: 100%;
 		height: 50vw;
 		background: #EEEEEE;
 	}
@@ -2233,7 +2205,7 @@ ul {
 	.angaben-container h2 {
 		font-weight: 600;
 		font-size: 7vw;
-		position:relative; 
+		position:relative;
 		margin-top: 10%;
 		opacity: 1;
 	}
@@ -2242,9 +2214,8 @@ ul {
 
 		display: block;
 		clear: both;
-		font-size: 5vw;
 		line-height: 0px;
-		position:relative; 
+		position:relative;
 		margin-top: 1vw;
 		opacity: 1;
 	}
@@ -2253,7 +2224,7 @@ ul {
 	/* Hoflädeli --------------------------------- */
 
 	.text h3 {
-		padding-top: 7vw; 
+		padding-top: 7vw;
 		font-size: 7vw;
 	}
 
@@ -2270,25 +2241,7 @@ ul {
 	}
 
 
-	/* Anfragen -> Events & Hoflaedeli --------------------------------- */
 
-
-	.anfragen {
-		padding: 1vw 1vw 3vw;
-		text-align: center;
-	}
-
-	.anfragen h3 {
-		padding: 3vw 0;
-		font-size: 5.5vw;
-		text-decoration: none;
-	}
-
-	.anfragen a {
-		padding-bottom: 4vw;
-		font-size: 10vw;
-		text-decoration: none;
-	}
 
 	/* Kontakt --------------------------------- */
 
@@ -2299,9 +2252,9 @@ ul {
 
 
 
-	.grau-container-kontakt {  
+	.grau-container-kontakt {
 		position: static;
-		padding: 2vw 0vw 5vw; /*wieso??*/
+		padding: 2vw 0vw 5vw; 
 		width:100%;
 		height: 100%;
 		background: #EEEEEE;
@@ -2312,7 +2265,7 @@ ul {
 		text-align: left;
 		width: 100%;
 		font-size: 6vw;
-		padding: 0vw 4vw 4vw; /*wieso??*/
+		padding: 0vw 4vw 4vw; 
 		font-weight: 300;
 
 	}
@@ -2335,7 +2288,7 @@ ul {
 		display: none;
 	}
 
-	.form-style-6{		/*noch unklar ob es hier wirklich eine form braucht*/
+	.form-style-6{		
 		font-size: 6vw;
 		line-height: 7vw;
 		width: 100%;
@@ -2418,7 +2371,6 @@ ul {
 
 	.tiere-ueberflex {
 		position: static;
-		/*	padding: 0 10vw ;*/
 		width: 100%;
 		margin: 0 0vw ;
 		display: felx;
@@ -2437,7 +2389,6 @@ ul {
 
 	.events-ueberflex {
 		position: static;
-		/*	padding: 0 10vw ;*/
 		width: 100%;
 		margin: 0 0vw ;
 		display: felx;
@@ -2497,7 +2448,6 @@ ul {
 		width: 100%;
 		display:-ms-flex;
 		position: relative;
-/*    	min-height: 56.1vw;*/
 	}
 
 
@@ -2527,34 +2477,28 @@ ul {
 @media only screen and (max-width: 667px)  {
 	.unterliste1	{
 		padding-top: 20px;
-/*		padding-right: 10vw;*/
 		left: 35%;
 		z-index: 100;
 		margin-right:0;
-/*		display: none;
-*/	}
+	}
 
 }
 
 @media only screen and (min-width: 667px)  {
 	.unterliste1	{
-/*		padding-right: 10vw;*/
 		left: 35%;
 		z-index: 100;
 		margin-right:0;
-/*		display: none;
-*/	}
+	}
 
 }
 
 @media only screen and (max-width: 600px)  {
 	.unterliste1	{
-/*		padding-right: 10vw;*/
 		left: 40%;
 		z-index: 100;
 		margin-right:0;
-/*		display: none;
-*/	}
+	}
 
 }
 
@@ -2572,18 +2516,7 @@ ul {
 
 
 
-	.unterliste1	{
-		padding-top: 20px;
-/*		padding-right: 10vw;*/
-		left: 47%;
-		z-index: 100;
-		margin-right:0;
-/*		display: none;
-*/	}
 
-/*	.unterliste2 {
-		margin-left: 5.5vw;
-	}*/
 
 
 	.button {
@@ -2600,32 +2533,7 @@ ul {
 	}
 
 
-	/*unterseiten main*/
 
-/*	.text {
-		padding: 1.1vw 10vw 0vw;
-	}
-
-	.uebertext-titel h1 {
-		padding-bottom: .6vw;
-		width: 100%;
-		font-weight: 400;
-		font-size: 1.4vw;
-		line-height: 1.6vw;
-		color: #9E9E9E;
-	}
-
-	.uebertext p {
-		padding-bottom: 1vw;
-		font-size: .9vw;
-		line-height: 1.2vw;
-	}
-
-	.kontakt-text>p {
-		padding-bottom: 1vw;
-		font-size: .9vw;
-		line-height: 1.2vw;
-	}*/
 
 
 	/*untermenu unser bauernhof*/
@@ -2681,8 +2589,7 @@ ul {
 
 	/*über uns*/
 	.angaben-container p {
-		font-size: 0.9vw;
-		top: 10.5vw; 
+		top: 10.5vw;
 
 	}
 
@@ -2690,22 +2597,9 @@ ul {
 		font-weight: 400;
 		font-size: 1.6vw;
 		line-height: 2.8vw;
-		top: 11.5vw; 
+		top: 11.5vw;
 	}
 
-
-	/*anfrage -> kontakt laedeli*/
-	.anfragen a {
-		font-weight: 400;
-		font-size: 2.0vw;
-		line-height: 2.0vw;
-	}
-
-	.anfragen a:hover {
-		font-weight: 400;
-		font-size: 2.0vw;
-		line-height: 2.0vw;
-	}
 
 	/*laedeli*/
 	.oeffnungszeiten p {
@@ -2722,7 +2616,6 @@ ul {
 		margin: .2vw 2vw;
 	}
 
-/*	.form-style-6 .pure-button .pure-button-primaryn[type="submit"],*/
 	.form-style-6 input[type="text"],
 	.form-style-6 input[type="date"],
 	.form-style-6 input[type="datetime"],
@@ -2737,14 +2630,13 @@ ul {
 		padding: .7vw;
 	}
 
-	.pure-button-primary, 
-	.pure-button-selected, 
-	a.pure-button-primary, 
+	.pure-button-primary,
+	.pure-button-selected,
+	a.pure-button-primary,
 	a.pure-button-selected {
-		width: 12vw !important; 
+		width: 12vw !important;
 	}
 
-/*	.form-style-6 .pure-button .pure-button-primaryn[type="submit"]:focus,*/
 	.form-style-6 input[type="text"]:focus,
 	.form-style-6 input[type="date"]:focus,
 	.form-style-6 input[type="datetime"]:focus,
@@ -2779,30 +2671,7 @@ ul {
 
 }
 
-/* Desktop 1900 ----------- */
-/*@media only screen and (min-width: 1311px)  {
 
-nav a {
-	text-decoration:none;
-	color: white;
-	padding-left: 1vw;
-	font-size: 18px;
-
-}
-
-nav a:hover {
-	opacity: 0.8;
-
-}
-
-ul {
-	list-style: none;
-	padding-left:0;
-	padding-top: 10px;
-	padding-right: 1.5vw;
-	position: static;	
-}
-}*/
 
 /* Desktop 913 ----------- */
 @media only screen and (max-width: 913px)  {
@@ -2824,15 +2693,12 @@ ul {
 	}
 
 	.nav-up {
-		top: -105px; 
+		top: -105px;
 	}
 
 
 	#logo{
 		font-family: 'source serif pro';
-
-/*		margin-left: 40%;*/
-
 		display:block;
 		letter-spacing: 2px;
 		font-weight: 200;
@@ -2859,7 +2725,7 @@ ul {
 		height: 110% !important;
 		list-style: none;
 		position: fixed;
-		text-align: center;	
+		text-align: center;
 		-webkit-transition:all 0.8s ease-in-out;
 		transition:all 0.8s ease-in-out;
 	}
@@ -2882,12 +2748,9 @@ ul {
 
 	.unterliste1	{
 		padding-top: 20px;
-/*		padding-right: 10vw;*/
-/*		left: 40%;
-*/		z-index: 100;
+		z-index: 100;
 		margin-right:0;
-/*		display: none;
-*/	}
+	}
 
 
 
@@ -3030,7 +2893,6 @@ ul {
 		transition-property: bottom, transform;
 	}
 
-	/* active state, i.e. menu open */
 	.c-hamburger--htx.is-active {
 		background-color: none;
 	}
@@ -3074,7 +2936,7 @@ ul {
 	}
 
 	.main-navigation{
-		display: none; 	
+		display: none;
 	}
 
 
@@ -3113,7 +2975,7 @@ ul {
 	}
 
 	.uebertext-titel h1 {
-		padding: 3vw 1vw;	
+		padding: 3vw 1vw;
 		padding-bottom: 1vw;
 
 		font-weight: 600;
@@ -3146,7 +3008,7 @@ ul {
 		padding-bottom: 1vw;
 		text-align: left;
 		font-size: 6vw;
-		line-height: 7vw;	
+		line-height: 7vw;
 	}
 	.contakt-container {
 	padding: 0vw 0vw 0vw 0vw;
@@ -3241,9 +3103,9 @@ ul {
 	color: #9E9E9E;
 	text-align: center;
 
-	top:2vw;
+	top:5vw;
 
-	position:relative; 
+	position:relative;
 	width: 100%;
 	transition: all 0.8s ease-in-out;
 	-moz-transition: all 0.8s ease-in-out;
@@ -3272,17 +3134,16 @@ ul {
 	-o-transform: translate3d(0,0,0);
 	-ms-transform: translate3d(0,0,0);
 
-	top:0vw;
+	top:2vw;
 
-/*	float: left;*/
 	text-align: center;
-	font-size: 2.5vw;
-	
+	font-size: 12px;
+
 	line-height: 0vw;
 
 	display: block;
 
-	position:relative; 
+	position:relative;
 
 	width: 100%;
 
@@ -3299,8 +3160,9 @@ ul {
 	/* Hoflädeli --------------------------------- */
 
 	.text h3 {
-		padding-top: 3vw; 
-		font-size: 3vw;
+		padding-top: 3vw;
+		padding-left: 1vw;
+		font-size: 21px;
 	}
 
 
@@ -3309,9 +3171,10 @@ ul {
 	}
 
 	.oeffnungszeiten p {
+		padding-top: 10px;
 		text-align: left;
-		font-size: 6vw;
-		line-height: 8vw;
+		font-size: 24px;
+		line-height: 30px;
 
 	}
 
@@ -3330,12 +3193,7 @@ ul {
 		text-decoration: none;
 	}
 
-	.anfragen a {
-		padding-bottom: 4vw;
-		font-size: 12vw;
-		font-weight: 300;
-		text-decoration: none;
-	}
+
 
 	/* Kontakt --------------------------------- */
 
@@ -3346,9 +3204,9 @@ ul {
 
 
 
-	.grau-container-kontakt {  
+	.grau-container-kontakt {
 		position: static;
-		padding: 2vw 0vw 5vw; /*wieso??*/
+		padding: 2vw 0vw 5vw; 
 		width:100%;
 		height: 100%;
 		background: #EEEEEE;
@@ -3359,7 +3217,7 @@ ul {
 		text-align: left;
 		width: 100%;
 		font-size: 18px;
-		padding: 0vw 4vw 4vw; /*wieso??*/
+		padding: 0vw 4vw 4vw; 
 		font-weight: 300;
 
 	}
@@ -3382,12 +3240,6 @@ ul {
 	}
 	/* Form --------------------------------- */
 
-/*    .antwort {
-    	padding: 0vw 0vw;
-		width: 80%;
-		font-size: 4vw;
-		line-height: 36px;
-	}*/
 
 .antwort {
 	text-align: center;
@@ -3401,7 +3253,7 @@ ul {
 
 }
 
-	.form-style-6{		/*noch unklar ob es hier wirklich eine form braucht*/
+	.form-style-6{		
 		font-size: 6vw;
 		line-height: 7vw;
 		width: 100%;
@@ -3472,7 +3324,6 @@ ul {
 		font-weight: 300;
 		border-bottom: 1px solid white;
 		border-left: 1px solid white;
-/*		border-top: 1px solid white;*/
 	}
 
 
@@ -3551,22 +3402,34 @@ ul {
 
 
 
+/*Desktop 700*/
+
+@media only screen and (max-width: 700px)  {
 
 
 
-/*@media only screen and (min-width: 667px)  {
 
+	.angaben-container {
 
+		width: 100%;
+		display:block;
+	}
 
-.slider {
-    padding: 0 0vw 0 10vw;
-    width: 90%;
-    max-height: 20	vw;
-    min-height: 40.0vw;
+	.img-container {
+
+	display:none;
+	}
+
+	.angaben-container h2 {
+		padding-top: 0vw;
+	}
+
+	.angaben-container p {
+		top:1vw;
+		font-size: 3vw;
+	}
 }
 
-}
-*/
 
 
 @media only screen and (min-width: 1300px)  {
@@ -3611,7 +3474,6 @@ ul {
 
 @media only screen and (min-width: 850px)  {
 .slider {
-/*    padding: 0 0vw 0 10vw;*/
     width: 90%;
     min-height: 44.00vw;
 }
@@ -3642,15 +3504,4 @@ ul {
     min-height: 44.00vw;
 }
 }
-/*
-@media only screen and (max-width: 350px)  {
-.slider {
-
-    min-height: 56.10vw;
-}
-}*/
-
-
-
-
 

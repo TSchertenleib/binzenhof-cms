@@ -45,6 +45,7 @@ $sliderTitleEvents.each(function() {
 
 $('.site-slider').slick({
   dots: false,
+  adaptiveHeight: true,
   infinite: true,
   speed: 300,
   slidesToShow: 1,
